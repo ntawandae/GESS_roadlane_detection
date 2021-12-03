@@ -1,11 +1,26 @@
 ![1111](https://user-images.githubusercontent.com/56553042/144557211-6f42c816-d73c-4c3a-8e84-33f44aa6cb0b.png)
 
-College of Information Science and Engineering
+### College of Information Science and Engineering
 
-**Project Title:** 
-# edgedetection-roadlane
-semester 7 project OUC Computer vision
+#### **Project Title:** Vehicle Road Lane Line Detection
 
+##### semester 7 project Computer vision
+
+**_Members and Tasks:_** 
+
+* Gwendolin Shangwa BK2018040
+  * Problem Statement
+  * Objectives
+* Emmanuel Nhamo BK2018051
+  * History & Background
+  * document compilation
+* Sijabulisiwe Mlalazi BK2018036
+  * Approach
+  * Methodology
+* Shalom Muguwe BK2018037
+  * Requirements
+  * Timeline Progression  
+     
 December, 2021
 
 
@@ -106,8 +121,8 @@ NB; All the stated resources are on open source and free to download
 ### Progression Timeline
 | Date  | Milestone  |   
 |---|---|
-|December 1, 2021   | Submit Proposal  |
-|December 3 ,2021  | Review proposal based on the comments made during first submission  |
+|December 3, 2021   | Submit Proposal  |
+|December 7 ,2021  | Review proposal based on the comments made during first submission  |
 |December. 11, 2021   | Development of the Project Website  |
 |December 15,2021| Modify the Functionalities of the project|			 		
 |December 27 ,2021|	Test the system with other students | 
