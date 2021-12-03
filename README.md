@@ -81,6 +81,7 @@ in our research, we will put into cinsideration the existance of curved roads, s
 *	And now we have different slope lines on the left lane and the right lane and we have to remove the other slope lines to remain with the best slope lines that can be used and to achieve that we use the reject outliers function that will reject all the surrounding lines and leave the best fit lanes.
 *	We will have to find a straight line that best approximates the two lane points and to achieve that we use linear regression function.
 *	The last step is to output the final image with the lanes drawn.We have to set our detected lines in our original image and they should be visible and be able to detect the lanes.
+
 This project will be mainly for people who own cars.So when we finish our program we will ask people with cars to test our program in their vehicles . After giving them we will then give them a questionnaire for them to rate our program. They will also tell us how we can improve our system.
 
 ### REQUIREMENTS
@@ -96,6 +97,19 @@ Inorder to implement the project, the following conditions are required
 *	Processor 1.8GHz 
 
 NB; All the stated resources are on open source and free to download
+
+### Progression Timeline
+Date	Milestone
+December 1, 2021	Submit Proposal
+December 3 ,2021	Review proposal based on the comments made during first submission 
+December. 11, 2021	Development of the Project Website
+December 15,2021	Modify the Functionalities of the project
+December 27 ,2021	Test the system with other students 
+January 02, 2022	Data collection by using interviews and questionnaires
+January 04, 2022	Compile Report
+January 08, 2022	Final Presentation
+![image](https://user-images.githubusercontent.com/56553042/144555020-b951630e-e2f7-4dcb-90a0-5e1eea743de8.png)
+
 
 ### REFERENCES:
 
