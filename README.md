@@ -14,7 +14,7 @@ To address problems such as low detection accuracy of traditional methods and po
 Poor methods of traditional deep learning based methods had poor real time, this will make it difficult to apply such methods in our real world automobile industry since there is need for more accuracy inorder for this system to work properly .
 
 After taking a thorough investigation on traditional deep learning based methods, we realized that, there is poor detection efficiency, therefore this method can not be applied to our real world automobile industry because we need good detection efficiency for our vehicles to operate smoothly without any car accidents 
-[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679325/)
+[[1.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679325/)]
 
 ~**Reference** :        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679325/~
 
@@ -40,27 +40,27 @@ We will design our system in such a way that it will allow the driver to alert a
 
 **Reference**
 
-[2](https://www.analyticsvidhya.com/blog/2020/05/tutorial-real-time-lane-detection-opencv/)
+[[2.](https://www.analyticsvidhya.com/blog/2020/05/tutorial-real-time-lane-detection-opencv/)]
 
-[3](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0326-2)
+[[3.](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0326-2)]
 
-[4](https://www.sciencedirect.com/science/article/pii/S2095756420301458)
+[[4.](https://www.sciencedirect.com/science/article/pii/S2095756420301458)]
 
 
 
 ### History and Background
 
 In 2016, WHO estimated China had a total of 256,180 estimated road fatalities and 3,842,700 estimated serious injuries due to road accidents, some of these attributed to bad weather, or bad tailgating leading cars, which resulted in an estimated total Cost of $688,150 million for fatalities and Serious Injuries, 2016.
-[5](https://www.roadsafetyfacility.org/country/china)
+[[5.](https://www.roadsafetyfacility.org/country/china)]
 
 These road traffic injuries bring considerable economic losses to victims, their families, and nations as a whole, Because of this we think that auto mobile cars developed with lane departure warnings or lane line detection systesm are a key fundamental to road safety.
 In recent years, advanced driver assistance systems (ADAS) and autonomous driving cars have become more and more important in reducing traffic accidents.
 Road lane line detection is a key instrumental technology for smart vehicles, and has attracted widespread attention since 2001 from plenty of big institutes and automobile technology companies, small institutions haven't had the opportunity of implementing this.
-[6](https://en.wikipedia.org/wiki/Lane_departure_warning_system)
+[[6.](https://en.wikipedia.org/wiki/Lane_departure_warning_system)]
 
 Lane lines have always been painted for humans to see and follow while driving. In a very similar way, an autonomous vehicle that uses human designed infrastructure, needs to see the lane markings to steer accordingly and follow the road trajectory as these cars use the same roads as manually driven cars. The concept of LLD is used to describe the path for self-driving cars and to avoid the risk of getting in another lane.
 Most previous research works could only detect lanes on non-curved roads, and lack of distinctive features on roads make lane detection algorithms seem ineffective and confused by other objects with similar appearance. Moreover, the inability to decipher faded, missing, or incorrect lane markings. Markings covered in snow or old lane markings left visible, inconsistent number of lanes on a road as well as diverse lane line patterns, e.g. solid, broken, single, double, merging, and splitting lines further hamper the performance.
-[7](https://en.wikipedia.org/wiki/Lane_departure_warning_system#cite_note-missing-30)
+[[7.](https://en.wikipedia.org/wiki/Lane_departure_warning_system#cite_note-missing-30)]
 
 in our research, we will put into cinsideration the existance of curved roads, shadows, inconsistant continuous and discontinuous lanes with different colors.
 
@@ -77,7 +77,7 @@ in our research, we will put into cinsideration the existance of curved roads, s
 *	After detecting the edges we will then cut out all the other objects and noise in our images like the surrounding trees or buildings and we will be left with the lane lines which is our main target in this project.and we use a shape bounded by two lines and we call it a polygonal shape since the lanes change their shape.They are no always straight.
 *	We will draw the lines and we make them thick and more clear and we use the draw lines function to draw them.
 *	We will use a method of detecting lines called the Hough Transform.This will help us to detect the lane lines on a road.
-*	Hough Transform will detect some lines but however it can output several output lines and we have to leave one line of best fit that will represent our lanes and we use an equation to find the gradient or the slope line to achieve that.When the gradient of the lines are positive it is for the left lane and when the gradient is negative it is for the left lane.[8](https://towardsdatascience.com/advanced-lane-detection-for-autonomous-vehicles-using-computer-vision-techniques-f229e4245e41?gi=d317808a7d49)
+*	Hough Transform will detect some lines but however it can output several output lines and we have to leave one line of best fit that will represent our lanes and we use an equation to find the gradient or the slope line to achieve that.When the gradient of the lines are positive it is for the left lane and when the gradient is negative it is for the left lane.[[11.](https://towardsdatascience.com/advanced-lane-detection-for-autonomous-vehicles-using-computer-vision-techniques-f229e4245e41?gi=d317808a7d49)]
 *	And now we have different slope lines on the left lane and the right lane and we have to remove the other slope lines to remain with the best slope lines that can be used and to achieve that we use the reject outliers function that will reject all the surrounding lines and leave the best fit lanes.
 *	We will have to find a straight line that best approximates the two lane points and to achieve that we use linear regression function.
 *	The last step is to output the final image with the lanes drawn.We have to set our detected lines in our original image and they should be visible and be able to detect the lanes.
