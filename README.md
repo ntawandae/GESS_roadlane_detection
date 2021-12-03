@@ -1,5 +1,12 @@
+![1111](https://user-images.githubusercontent.com/56553042/144557211-6f42c816-d73c-4c3a-8e84-33f44aa6cb0b.png)
+
+College of Information Science and Engineering
+
+**Project Title:** 
 # edgedetection-roadlane
 semester 7 project OUC Computer vision
+
+December, 2021
 
 
 
@@ -15,8 +22,6 @@ Poor methods of traditional deep learning based methods had poor real time, this
 
 After taking a thorough investigation on traditional deep learning based methods, we realized that, there is poor detection efficiency, therefore this method can not be applied to our real world automobile industry because we need good detection efficiency for our vehicles to operate smoothly without any car accidents 
 [[1.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679325/)]
-
-~**Reference** :        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679325/~
 
 
 ### Objective
@@ -99,16 +104,16 @@ Inorder to implement the project, the following conditions are required
 NB; All the stated resources are on open source and free to download
 
 ### Progression Timeline
-Date	Milestone
-December 1, 2021	Submit Proposal
-December 3 ,2021	Review proposal based on the comments made during first submission 
-December. 11, 2021	Development of the Project Website
-December 15,2021	Modify the Functionalities of the project
-December 27 ,2021	Test the system with other students 
-January 02, 2022	Data collection by using interviews and questionnaires
-January 04, 2022	Compile Report
-January 08, 2022	Final Presentation
-![image](https://user-images.githubusercontent.com/56553042/144555020-b951630e-e2f7-4dcb-90a0-5e1eea743de8.png)
+| Date  | Milestone  |   
+|---|---|
+|December 1, 2021   | Submit Proposal  |
+|December 3 ,2021  | Review proposal based on the comments made during first submission  |
+|December. 11, 2021   | Development of the Project Website  |
+|December 15,2021| Modify the Functionalities of the project|			 		
+|December 27 ,2021|	Test the system with other students | 
+|January 02, 2022	| Data collection by using interviews and questionnaires |
+|January 04, 2022	| Compile Report |
+|January 08, 2022	| Final Presentation |
 
 
 ### REFERENCES:
