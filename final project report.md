@@ -23,4 +23,10 @@ In this work, we aim to detect lines, in video and also show the curves of the l
     
 #### Separating red and yellow lines
 * secondly, we had to remove road lane markings of red and yellow lines.
-  *  
+  * Lane lines have always been painted yellow and white for humans to see and follow while driving. 
+  * we had to convert color space to make yellow and white clearly distinguished
+  * we then performed HSL conversion of the images and we created 2 marks for the 2 colors.
+  * we marked separately bit wise with the actual frame of the image.
+  * afterwards we had to combine them and filter the noise.
+
+#### Getting the bird's eye view using homography
