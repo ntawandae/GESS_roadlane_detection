@@ -105,6 +105,11 @@ Although lane line detection is important a lot of work has to be done in this f
 More research and implementation has to be done also on Vehicle and Obstacle Detection to make the system more useful with Vision camera detecting which vehicle/obstacle, proximity sensors give distance to the vehicle/obstacle
 3D vision, primarily lidars, convert the raw point cloud to 3D maps straightaway, from which obstacles and vehicles can be segmented by depth
 
+#### Conclusions:
+
+The project succeeded in detecting the lane lines clearly in the video streams.
+This project is intended to only detect (mostly) straight lines. as we couldn't fully implement curved lane line detection. which we believe, with more time on the project we can achieve
+
 ### References
 
 * https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549
