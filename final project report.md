@@ -60,3 +60,4 @@ In this work, we aim to detect lines, in video and also show the curves of the l
  * below is an image result after applying left and right line separation:
   <img width="960" alt="lineseparation" src="https://user-images.githubusercontent.com/56553042/147901133-32e95536-fc72-4c55-8dfd-c786bfa7ba36.png">
 and below is the final image after all the processes have been done:
+<img width="960" alt="finalimage" src="https://user-images.githubusercontent.com/56553042/147901613-c857fb9a-a45e-457a-8fc9-c00bdc1f23a2.png">
