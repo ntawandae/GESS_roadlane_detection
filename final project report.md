@@ -36,7 +36,7 @@ In this work, we aim to detect lines, in video and also show the curves of the l
  * we leave only the ROI and cover the useless parts
  * <img width="537" alt="roi" src="https://user-images.githubusercontent.com/56553042/147899919-2a7385c0-0aea-4e2c-88d5-5613158abca3.png">
  * below is the cropped image:
- * <img width="960" alt="cropped" src="https://user-images.githubusercontent.com/56553042/147901965-36c5b508-a258-44da-9a23-d50e343d895f.png">
+ <img width="960" alt="cropped" src="https://user-images.githubusercontent.com/56553042/147901965-36c5b508-a258-44da-9a23-d50e343d895f.png">
  * below is the result of the masked image
 <img width="960" alt="masking" src="https://user-images.githubusercontent.com/56553042/147899992-6e42426e-3c71-4723-8545-981882af70c7.png">
  
@@ -60,8 +60,25 @@ In this work, we aim to detect lines, in video and also show the curves of the l
 #### 6. Display Complete Lines
 * to draw the lines use the function display_lines
 * it takes the argument image and averaged lines with defined points and draws using cv2.line() function:
-*  <img width="535" alt="displaylines" src="https://user-images.githubusercontent.com/56553042/147901390-7d697439-fa96-45d1-aab0-62a80f37e6d9.png">
- * below is an image result after applying left and right line separation:
-  <img width="960" alt="lineseparation" src="https://user-images.githubusercontent.com/56553042/147901133-32e95536-fc72-4c55-8dfd-c786bfa7ba36.png">
+ <img width="535" alt="displaylines" src="https://user-images.githubusercontent.com/56553042/147901390-7d697439-fa96-45d1-aab0-62a80f37e6d9.png">
+below is an image result after applying left and right line separation:
+ <img width="960" alt="lineseparation" src="https://user-images.githubusercontent.com/56553042/147901133-32e95536-fc72-4c55-8dfd-c786bfa7ba36.png">
 and below is the final image after all the processes have been done:
 <img width="960" alt="finalimage" src="https://user-images.githubusercontent.com/56553042/147901613-c857fb9a-a45e-457a-8fc9-c00bdc1f23a2.png">
+
+#### after applying these transformations, for our final result, we applied a video input for the final presentation since it is more useful.
+**below is the link to the result video and the initial video**
+**_original video_**
+https://user-images.githubusercontent.com/56553042/147903105-ffbbf66e-354f-4d50-974f-57e276583e9b.mp4
+
+**_result video_**
+https://user-images.githubusercontent.com/56553042/147903356-cce5f537-8b41-4e76-b7aa-d20f7600c0d5.mp4
+
+#### Problems Faced
+we had a challenge video for our project
+When the same code was run on the challenge video the code was crashing because there were 
+times when no lane was detected, 
+<img width="265" alt="p1" src="https://user-images.githubusercontent.com/56553042/147902579-d36963cd-37fb-4bb7-a2a2-4896d9da4064.png">
+we fixed this problem by putting a check on the null condition and 
+continuing the loop
+
