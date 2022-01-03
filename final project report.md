@@ -68,10 +68,13 @@ and below is the final image after all the processes have been done:
 
 #### after applying these transformations, for our final result, we applied a video input for the final presentation since it is more useful.
 **below is the link to the result video and the initial video**
+
 **_original video_**
+
 https://user-images.githubusercontent.com/56553042/147903105-ffbbf66e-354f-4d50-974f-57e276583e9b.mp4
 
 **_result video_**
+
 https://user-images.githubusercontent.com/56553042/147903356-cce5f537-8b41-4e76-b7aa-d20f7600c0d5.mp4
 
 #### Problems Faced
