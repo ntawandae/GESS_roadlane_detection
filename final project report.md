@@ -15,6 +15,9 @@ In this work, we aim to detect lines, in video and also show the curves of the l
   * Left and Right lines separation
   * Display Complete Lines
   
+ *_here is our initial image taken from the road on our test video:_* 
+![og image](https://user-images.githubusercontent.com/56553042/147921790-02678bf4-a812-4808-8f30-88892b77abec.png)
+  
 #### 1. Gaussian Blur
 * First we had to remove the distortion(noise) from the image and then smoothen the image
   * we used opencv to operate the function and a kernel matrix of a sprcific size(5x5), and a deviation using the gaussian blur
@@ -86,6 +89,8 @@ As we tried to run the code with different pictures with different. Colors , our
   As we tried to test our project on different kinds of images we realized that not all images are applicable to the project , henceforth when one need to use the project they need only blurred images to succeed 
   * Unable to implement curved roads and turn notification           
   As we proceed with our project , we have tried to test our Code on curved roads and tried to implement a function which notifies the road user which course of action to take, either to keep straight, go left or go to the right. We couldn't implement this properly. Currently our code is able to run on straight roads , with straight roads without turning points 
+  * unable to identify lane lines where the are no lines in the road
+  our system is unable to work in situations where the road markings are missing, however, if one side has road lines then a line of best fit is extrapolated for the otherside. 
 
 #### Individual Submissions
 
