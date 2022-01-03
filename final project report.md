@@ -45,6 +45,7 @@ In this work, we aim to detect lines, in video and also show the curves of the l
 * we used the hough transformation technique to detect and generate straight lines in the image. 
 * the equation of a straight line can be given as **y=mx+c**, where m is the *_slope_* and c is the *_y-intercept_*
   * we can transform everyline from 2d space (x vs y) to the hough space (M vs C).
+  * ![houghtt](https://user-images.githubusercontent.com/56553042/147909529-c7e1d9b3-04c1-4b4b-9312-2f30f139395e.png)
   * a single point in 2d space can be represented by a line in hough space.
   * to apply this technique, the following code was applied
   * <img width="551" alt="line sep" src="https://user-images.githubusercontent.com/56553042/147901034-b32d7f58-eef2-459f-934b-699f6903118d.png">
@@ -97,4 +98,17 @@ Sjay : Mathematical formulas researches, diagrams and Flow chart
 Emmanuel :  Code Problem-solution findings, Researches as well as MD writing 
 
 Everyone : Code Testing 
-  
+
+#### Discussions and possible editions to make the work more valuable:
+
+Although lane line detection is important a lot of work has to be done in this field of work before this can be applied on real cars, traffic signs recognition systems have to be considered as well so that the driver is notified of every aspect of his journey. With the help of others who did shape detection, our system can be integrated to detect very distinctive shape (circular, triangular, rectangular or diamond shaped) which can be searched by classification or edge-detection techniques. 
+More research and implementation has to be done also on Vehicle and Obstacle Detection to make the system more useful with Vision camera detecting which vehicle/obstacle, proximity sensors give distance to the vehicle/obstacle
+3D vision, primarily lidars, convert the raw point cloud to 3D maps straightaway, from which obstacles and vehicles can be segmented by depth
+
+### References
+
+* https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549
+* https://www.sciencedirect.com/topics/engineering/road-detection
+* https://link.springer.com/article/10.1007/s41315-021-00175-2
+* https://scholar.google.com/scholar_lookup?title=Brain-inspired%20cognitive%20model%20with%20attention%20for%20self-driving%20cars%5BJ%5D&journal=IEEE%20Trans.%20Cogn.%20Dev.%20Syst.&volume=11&issue=1&pages=13-25&publication_year=2017&author=Chen%2CS&author=Zhang%2CS&author=Shang%2CJ
+* https://github.com/anubhavparas/lane-detection-and-turn-prediction
