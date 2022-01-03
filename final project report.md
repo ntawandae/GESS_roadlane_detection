@@ -35,6 +35,8 @@ In this work, we aim to detect lines, in video and also show the curves of the l
  * inorder to find this region of interest(ROI), we need our special points and crop the unnecessary ones accordingly.
  * we leave only the ROI and cover the useless parts
  * <img width="537" alt="roi" src="https://user-images.githubusercontent.com/56553042/147899919-2a7385c0-0aea-4e2c-88d5-5613158abca3.png">
+ * below is the cropped image:
+ * <img width="960" alt="cropped" src="https://user-images.githubusercontent.com/56553042/147901965-36c5b508-a258-44da-9a23-d50e343d895f.png">
  * below is the result of the masked image
 <img width="960" alt="masking" src="https://user-images.githubusercontent.com/56553042/147899992-6e42426e-3c71-4723-8545-981882af70c7.png">
  
@@ -45,17 +47,19 @@ In this work, we aim to detect lines, in video and also show the curves of the l
   * we can transform everyline from 2d space (x vs y) to the hough space (M vs C).
   * a single point in 2d space can be represented by a line in hough space.
   * to apply this technique, the following code was applied
+  * <img width="551" alt="line sep" src="https://user-images.githubusercontent.com/56553042/147901034-b32d7f58-eef2-459f-934b-699f6903118d.png">
   * <img width="355" alt="houghtransform" src="https://user-images.githubusercontent.com/56553042/147900554-66cbe03e-3276-46ce-b213-67c9919d1e91.png">
   
 #### 5. Left and Right lines separation
  * a slope helps us identify which points are on the left or right
   * in order to draw the continuous line, we had to find averages of these left or right point arrays.
   * for making coordinates,we define a function which help us to make coordinates for the line with the given slope and intercept:
-<img width="551" alt="line sep" src="https://user-images.githubusercontent.com/56553042/147901034-b32d7f58-eef2-459f-934b-699f6903118d.png">
 <img width="252" alt="lrseparation" src="https://user-images.githubusercontent.com/56553042/147901035-1c40b5f8-3456-4559-9d18-f4000131db45.png">
 <img width="370" alt="rlseparation" src="https://user-images.githubusercontent.com/56553042/147901036-bf0e9d19-9956-49bb-a13c-5a5266eae05c.png">
+
 #### 6. Display Complete Lines
-* to draw the lines use the functio display_lines
+* to draw the lines use the function display_lines
+* it takes the argument image and averaged lines with defined points and draws using cv2.line() function:
 *  <img width="535" alt="displaylines" src="https://user-images.githubusercontent.com/56553042/147901390-7d697439-fa96-45d1-aab0-62a80f37e6d9.png">
  * below is an image result after applying left and right line separation:
   <img width="960" alt="lineseparation" src="https://user-images.githubusercontent.com/56553042/147901133-32e95536-fc72-4c55-8dfd-c786bfa7ba36.png">
