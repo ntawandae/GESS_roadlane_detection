@@ -1,7 +1,7 @@
 # edgedetection-roadlane
 semester 7 project OUC Computer vision
 
-### Problem:
+### Problem Statement:
 
 In this work, we aim to detect lines, in video and also show the curves of the lines in applying our lane line detection. We also aim to provide road instructions to users of our system such as keep straight, go left as a proposal for assisting road users with lane change warning and detection. in our solution, we used a static image of our road first to explain the relative steps taken to get to the final result and then applied a video input for the final presentation since it is more useful.
 
@@ -78,10 +78,23 @@ https://user-images.githubusercontent.com/56553042/147903105-ffbbf66e-354f-4d50-
 https://user-images.githubusercontent.com/56553042/147903356-cce5f537-8b41-4e76-b7aa-d20f7600c0d5.mp4
 
 #### Problems Faced
-we had a challenge video for our project
-When the same code was run on the challenge video the code was crashing because there were 
-times when no lane was detected, 
-<img width="265" alt="p1" src="https://user-images.githubusercontent.com/56553042/147902579-d36963cd-37fb-4bb7-a2a2-4896d9da4064.png">
-we fixed this problem by putting a check on the null condition and 
-continuing the loop
 
+  * Running colored images
+As we tried to run the code with different pictures with different. Colors , our code will give us some errors , we had a challenge in trying to read different images with different colors. Therefore our function of cv2 color assertion failed to load correctly 
+  * Only able to read Gaussian blurred images.  
+  As we tried to test our project on different kinds of images we realized that not all images are applicable to the project , henceforth when one need to use the project they need only blurred images to succeed 
+  * Unable to implement curved roads and turn notification           
+  As we proceed with our project , we have tried to test our Code on curved roads and tried to implement a function which notifies the road user which course of action to take, either to keep straight, go left or go to the right. We couldn't implement this properly. Currently our code is able to run on straight roads , with straight roads without turning points 
+
+#### Individual Submissions
+
+Gwendolin : Code-implementation , Challenges and Research
+
+Shalom: Code modification , Video explanation-recording 
+
+Sjay : Mathematical formulas researches, diagrams and Flow chart
+
+Emmanuel :  Code Problem-solution findings, Researches as well as MD writing 
+
+Everyone : Code Testing 
+  
